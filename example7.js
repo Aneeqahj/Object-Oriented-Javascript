@@ -19,12 +19,12 @@ myVehicle.drive();
 myCar1.drive();
 myCar2.drive();
 
-var c = {};
-c.f = function (foo) {
-  console.log(foo);
-};
+// var c = {};
+// c.f = function (foo) {
+//   console.log(foo);
+// };
 
-var a = [];
-for (var i = 0; i < 1000000; i++) {
-  a.push(Object.create(c));
-}
+// var a = [];
+// for (var i = 0; i < 1000000; i++) {
+//   a.push(Object.create(c));
+// }
